@@ -41,7 +41,6 @@ function seedBlogPostData() {
 
 
 
-
 // generate an object representing a blog post.
 // can be used to generate seed data for db
 // or request.body data
