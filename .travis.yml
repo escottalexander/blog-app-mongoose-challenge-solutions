@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: TvLj4AGmpgmenNZ1JvQH/dEhxHzRb7r03dI3eK4YTpcg9GwJO0DwUyCDpCIg4rrQZ6cqzg626VgIzG8oDfZ3obmC3/lzVDoS8XzvT+Ox1rAAcnzoUW7WomS+rbvzWKUbRjGaOyBMOPT3l7iC5mdyeIfKwp9LdW0XWMAyZgAGhUk5T0mpy1JuO95kmiGO+vKxPqRjPk2WNXjbQ5CHYx2xKtuFiM6xkd0JxTTlBRlkC9xS4R8o3Vz8XCZ6R3aMoEQf5NL+32QtIPsxFC8lLWu/V/gmP7fVnk2zh+F7SiH0xuoIv9oejJ2wrHsLXNNdvp3yAfIFhnVyDvHal03VFN/3xxG3SWExHPKbL9LoJZARsNxcU4V6mNcXAeua3W3pp+ua5F4RH3EGJCwuUg4mYSQ2bIhel5OpRbM2GOc+vPluXDcxAd6+QRCIu9o/dANATI9sRcjC7B9LwM93WTVw86xqfwa8A5SfDlkBN9IyH1RMdcvqUXKzcr378fi5YIuaYcooCUtxN/E/qy26KBNi0CAgJ5nQlD3oGfizDbnR3SLLUHkSdtZZWU+7kq/nS/ZRBXAEjZuU4eL/WQVG+RkRHwqCCe3Wtzc1X8Nud2cLhF0VLW7LkrB3p+oVolf72puMHfM4muGp5lF9FRQ4G+o/jt7km/XtGSgza+19FQxaeYNnl6A=
+  app: enigmatic-waters-41557
+  on:
+    repo: escottalexander/blog-app-mongoose-challenge-solutions
